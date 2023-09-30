@@ -1,17 +1,17 @@
 :root
 {
-    --kek:rgb(183, 227, 245);
-    --skek:rgb(68, 129, 221);
-    --feh:rgb(7, 116, 240,0.5);
+    --kek:rgb(21, 67, 194);
+    --skek:rgb(77, 73, 139);
+    --feh:rgba(5, 36, 71, 0.5);
  }
 
 body
 {
 font-size: 25px;
-    background-image: url("bubo.jpg");
+    background-image: url("agy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
+    color: white;
 }
 #container{
     margin: auto;
@@ -23,7 +23,7 @@ font-size: 25px;
 }
 nav
 {
-    background:linear-gradient(var(--kek),var(--skek));
+    background:linear-gradient(var(--skek),var(--kek));
     text-align: center;
 	border:2px solid rgba(255,255,255,0.5);
 	border-radius:10px;
@@ -75,7 +75,7 @@ h1
 }
 #kep1{
     float: right;
-    border: 10px ridge skyblue;
+    border: 10px ridge blue;
     margin: 20px;
     border-radius: 10px;
     box-shadow: inset;

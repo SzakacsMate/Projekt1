@@ -7,23 +7,47 @@
     <title>Rendezési algoritmusok projektmunka</title>
 </head>
 <body>
+    <div id="container">
+    <nav>   
+            <ul>
+                <li>
+                    <a href="#1">A buborékos algoritmus működése</a>
+                </li>
+                <li>
+                    <a href="#2">Hatékonysága, tárigénye</a>
+                </li>
+                <li>
+                    <a href="#3">A program leírása</a>
+                </li>
+                <li>
+                    <a href="#4">A program kódja, működése</a>
+                </li>
+            </ul>
+    </nav>
+    <br>
+    <a href="pr2weblap.html" target="_blank" id="ujoldal"> A beszúrásos algoritmus</a>
     <h1>
-         Rendezési algoritmusok
+         A buborékos rendezési algoritmus
     </h1>
-    <h2>
-        Mi is az elrendezői algoritmus?
+    <h2 id="1">
+        A buborékos algoritmus működése
     </h2>
     <p>
-        
+        A buborékrendezés (angolul: Bubble sort) egy naiv algoritmus, amellyel egy véges (nem feltétlenül numerikus) sorozat – vagy számítástechnikai szóhasználattal élve egy tömb – elemei sorba rendezhetők [(n-1)n]/2 összehasonlítás elvégzésével, ahol n a sorozat elemeinek számát jelenti.
     </p>
     <p>
+        Az algoritmus alkalmazásának feltétele hogy a sorozat elemeihez létezzen egy rendezési reláció.
+    </p>
+    <p>
+        A tömböt az elejétől vizsgálva az egymás után következő elemeket hasonlítja össze. Ha olyat talál, hogy a második elem kisebb, mint az első, megcseréli a két elemet. Így a nagy elemek mint egy 'buborék' haladnak a tömb vége felé, a helyükre. Ha eléri a tömb végét, újra indul elölről. A rendezés akkor fejeződik be, ha az
+újraindulás után már nem történt egyetlen csere sem.
 
     </p>
-    <h2>
-        Az elkészült projekt tulajdonságai
+    <h2 id="2">
+        Hatékonysága, tárigénye
     </h2>
     <p>
-
+        A buborékrendezés egy egyszerű algoritmus, amelyet főleg az oktatásban használunk, mivel nem igazán hatékony. Elve, hogy egy „buborékkal” haladva a tömbben több menetben elölről hátra a buborékban szereplő két elemet felcseréljük, ha azok rossz sorrendben vannak.
     </p>
 
     <ul>
@@ -40,7 +64,7 @@
     <p>
 
     </p>
-    <h2>
+    <h2 id="3">
         A program leírása
     </h2>
     <p>
@@ -49,29 +73,33 @@
     <p>
 
     </p>
-    <h2>
-        A program kódja
+    <h2 id="4">
+        A program kódja, működése
     </h2>
     <p>
 
     </p>
-    <img src="" alt="">
+    <img src="bub1.png" alt="" id="kep1">
 </body>
 <footer>
     <h2>
         Források:
     </h2>
-    <p>
-
-    </p>
-    <p>
-
-    </p>
-    <p>
-
-    </p>
-    <p>
-        
-    </p>
+    <ul>
+        <li>
+            https://hu.wikipedia.org/wiki/Rendez%C3%A9s_(programoz%C3%A1s)#Bubor%C3%A9krendez%C3%A9s
+        </li>
+        <li>
+            https://anim.ide.sk/rendezesi_algoritmusok_1.php
+        </li>
+        <li>
+            https://www.ms.sapientia.ro/~kasa/adat10-11.pdf
+        </li>
+        <li>
+            https://doksi.net/hu/get.php?lid=9857
+        </li>
+    </ul>
 </footer>
+</div>
+
 </html>
