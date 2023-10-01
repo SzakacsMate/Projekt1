@@ -17,10 +17,10 @@
                 <a href="#2">Hatékonysága, tárigénye</a>
             </li>
             <li>
-                <a href="#3">A program leírása</a>
+                <a href="#3">A program működése</a>
             </li>
             <li>
-                <a href="#4">A program kódja, működése</a>
+                <a href="#4">A program kódja, leírása</a>
             </li>
         </ul>
     </nav>
@@ -54,35 +54,43 @@
 
         </p>
 
-    <ul>
-        <li>
-
-        </li>
-        <li>
-
-        </li>
-        <li>
-
-        </li>
-    </ul>
+    
     <p>
 
     </p>
     <h2 id="3">
-        A program leírása
+        A program működése
     </h2>
-    <p>
-
-    </p>
-    <p>
-
-    </p>
+    <img src="biz2.png" alt="" id="biz2">
     <h2 id="4">
-        A program kódja, működése
+        A program kódja, leírása
     </h2>
     <p>
-
-    </p>
+    def insertion_sort(list):
+    </p>    
+    <p id="p1">  
+    for keyPos in range(1, len(list)): -Induljon el a második elemtől (pos 1),használjuk ezt az elemet és illesszük be a listába.
+</p>  
+        <p class="p2">keyValue = list[keyPos]</p> -Adjunk értéket az elemnek, amit beillesztünk.
+        <p class="p2">
+            scanPos = keyPos - 1 - keressünk jobbról balra (lista kezdete felé)
+        </p>
+        <p class="p2">
+            while (scanPos >= 0) and (list[scanPos] > keyValue): -Ismételjünk minden elemt, mozgassuk,amíg elérjük a pozíciót.
+        </p>
+        <p id="p3">
+            list[scanPos + 1] = list[scanPos]
+        </p>
+          <p id="p3">
+            scanPos = scanPos - 1
+          </p>
+        <p id="p4">
+            list[scanPos +  1] = keyValue - Minden el lett vive az útból, illesszük be a kulcsot a megfelelő helyre.
+        </p>
+        
+        <p>
+            Forrás: <a href="http://programarcadegames.com/index.php?lang=hu&chapter=sorting">http://programarcadegames.com/index.php?lang=hu&chapter=sorting</a>
+        </p>
     <img src="besz1.png"id="kep1">
 </body>
 <footer>
@@ -91,16 +99,19 @@
     </h2>
     <ul>
         <li>
-            https://hu.wikipedia.org/wiki/Rendez%C3%A9s_(programoz%C3%A1s)#Bubor%C3%A9krendez%C3%A9s
+            <a href="https://hu.wikipedia.org/wiki/Rendez%C3%A9s_(programoz%C3%A1s)#Bubor%C3%A9krendez%C3%A9s">https://hu.wikipedia.org/wiki/Rendez%C3%A9s_(programoz%C3%A1s)#Bubor%C3%A9krendez%C3%A9s</a>
+            
         </li>
         <li>
-            https://anim.ide.sk/rendezesi_algoritmusok_1.php
+            <a href="https://anim.ide.sk/rendezesi_algoritmusok_1.php">https://anim.ide.sk/rendezesi_algoritmusok_1.php</a>
         </li>
         <li>
-            https://www.ms.sapientia.ro/~kasa/adat10-11.pdf
+            <a href=" https://www.ms.sapientia.ro/~kasa/adat10-11.pdf">https://www.ms.sapientia.ro/~kasa/adat10-11.pdf</a>
+            
         </li>
         <li>
-            https://doksi.net/hu/get.php?lid=9857
+            <a href="https://doksi.net/hu/get.php?lid=9857">https://doksi.net/hu/get.php?lid=9857</a>
+            
         </li>
     </ul>
 </footer>
