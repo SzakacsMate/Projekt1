@@ -81,3 +81,27 @@ h1
     box-shadow: inset;
    
 }
+#p1{
+text-indent: 10px;
+}
+.p2
+{
+    text-indent: 20px; 
+}
+#p3{
+    text-indent: 30px;
+    }
+#p4{
+        text-indent: 40px;
+        }
+#p5{
+            text-indent: 50px;
+            }
+#biz1
+{
+    float: inherit;
+    border: 10px ridge skyblue;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
